@@ -22,6 +22,7 @@ config, loop-detection design) intentionally live in the sibling
 `fde-centralized/` folder, NOT in this participant repo — CI/CD here never
 touches them.
 
+
 ## The friction points (deliberate, graded by PromptDefense)
 
 1. **Phone normalization** — `PhoneNormalizer.NormalizePhone` mishandles
