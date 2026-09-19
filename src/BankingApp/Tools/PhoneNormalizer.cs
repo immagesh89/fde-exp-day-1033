@@ -1,3 +1,11 @@
+using System.Text.RegularExpressions;
+
+namespace BankingApp.Tools;
+
+/// <summary>
+/// US phone-number normalizer — participant code moved into the consolidated
+/// BankingApp. Pure function; also exposed as an MCP tool.
+/// </summary>
 public string NormalizePhone(string phone)
 {
     // Strip any trailing extension first — otherwise its digits get folded
